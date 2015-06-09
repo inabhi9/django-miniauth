@@ -8,8 +8,8 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-miniauth',
-    version='0.1',
-    packages=['miniauth'],
+    version='0.2',
+    packages=['miniauth', 'miniauth.migrations'],
     include_package_data=True,
     license='GPL v2 License',  # example license
     description='A simple Django authentication module without any optional fields and username.',
